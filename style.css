@@ -13,7 +13,7 @@
 
 
 @font-face {
-    font-family: Young Serif Regular;
+    font-family: Young-Serif-Regular;
     src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
 }
 
@@ -75,7 +75,7 @@ img{
 .about h1 {
     color: var( --stone-900);
 /* Desktop/text-preset-1 */
-font-family: "Young Serif Regular";
+font-family: "Young-Serif-Regular";
 font-size: var(--font-size-mobile-text-preset-1, 36px);
 font-style: normal;
 font-weight: 400;
@@ -88,18 +88,18 @@ margin-bottom:24px;
 .about p{
     color: var(--color-stone-600, #5F564D);
 /* Desktop/text-preset-4 */
-font-family: Young Serif Regular;;
+font-family:  "Young-Serif-Regular";
 font-size: var(--font-size-desktop-text-preset-4, 16px);
 font-style: normal;
-font-weight: 400;
+
 line-height: 150%; /* 24px */
 margin-bottom:32px;
 }
 
 main h3 {
-    color: var(--rose-800, #7A284E);
+    color: #854632;
 /* Desktop/text-preset-3 */
-font-family: Young Serif Regular;
+font-family: Young-Serif-Regular;
 font-size: var(--font-size-desktop-text-preset-3, 20px);
 font-style: normal;
 font-weight: 600;
@@ -203,5 +203,10 @@ header{
 
 header img {
     border-radius:12px;
+}
+
+
+main h3 {
+    font-size:28px;
 }
 }
