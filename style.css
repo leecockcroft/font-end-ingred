@@ -139,10 +139,12 @@ line-height: 100%; /* 20px */
     display:flex;
     flex-direction:column;
     gap:8px;
+    font-family:Outfit-Regular;
 }
 li span {
    position:relative;
    left:16px;
+   
 }
 
 .calories-list{
@@ -154,6 +156,9 @@ padding-top:24px;
 
 
 }
+
+
+    
 
 .macro-name{
     width:50%;
@@ -174,6 +179,8 @@ font-family: 'Oufit-bold';
 
 hr{
     width:100%;
+    margin: 32px 0;
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -211,4 +218,6 @@ header img {
 main h3 {
     font-size:28px;
 }
+
+
 }
